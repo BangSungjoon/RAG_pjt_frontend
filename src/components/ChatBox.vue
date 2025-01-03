@@ -4,6 +4,7 @@
       <div v-for="(msg, index) in messages" :key="index" :class="['message', msg.role]">
         <span>{{ msg.content }}</span>
       </div>
+      <slot name="footer"></slot>
     </div>
   </template>
   
@@ -50,7 +51,7 @@
   }
   
   .assistant {
-    background-color: #fce4ec;
+    background-color: #FFF3B0; /* 연한 노란색 */
     align-self: flex-start; /* 어시스턴트 메시지는 왼쪽 정렬 */
     text-align: left;
   }

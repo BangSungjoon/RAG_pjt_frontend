@@ -9,7 +9,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="https://obank.kbstar.com/quics?page=C030037#loading">국민은행</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#">AI agent</a>
