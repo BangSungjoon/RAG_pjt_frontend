@@ -15,6 +15,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="https://obank.kbstar.com/quics?page=C030037#loading">국민은행</a>
                 </li>
+                <!-- <li class="nav-item">
+                    <RouterLink class="nav-link" :to="{ name:'home2' }">홈</RouterLink>
+                </li> -->
                 <li class="nav-item">
                     <RouterLink class="nav-link" :to="{ name:'chat' }">AI agent</RouterLink>
                 </li>
