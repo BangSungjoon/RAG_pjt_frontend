@@ -1,15 +1,16 @@
 <!-- src/App.vue -->
 <template>
   <Navbar />
-  <ChatBot />
+  <RouterView />
 </template>
 
 <script>
 import ChatBot from './views/ChatBot.vue';
 import Navbar from './components/Navbar.vue';
+import { RouterLink, RouterView } from 'vue-router'
 
 export default {
-  // name: 'App',
+  name: 'App',
   components: {
     ChatBot,
     Navbar,
